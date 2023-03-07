@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(127, 216, 167);
+    font: 100;color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+    a{color: whitesmoke;
+      position: absolute;
+      top: 450px;
+      left: 450px;
+}
+    
+    img{
+            position: absolute;
+            top:70px;
+            left:50px;
+            width:35px;
+            
+}
