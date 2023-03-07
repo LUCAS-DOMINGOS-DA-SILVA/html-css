@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
 body{
-    background-color:rgb(127, 216, 167);
-    font: 100;color: whitesmoke;
+    background-image: linear-gradient(to right, rgb(107, 107, 231)10%, green 30%, yellow , white );
+    font: 100;
+    color: rgb(255, 6, 6);
     text-align: center;
     font-style: italic;
 }
-    a{color: whitesmoke;
+    a{
+      color:rgb(255, 3, 3);
       position: absolute;
       top: 450px;
       left: 450px;
