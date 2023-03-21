@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        div{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="get" autocomplete="on">
+
+
+
+        <div>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required autocomplete="additional-name" minlength="5" >
+        </div>
+
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasc" value="M">
+            <label for="imasc">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="ifemi" value="F">
+            <label for="ifemi">Feminino</label>
+
+
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="futebol" id="ifutebol" checked><label for="ifutebol">futebol</label> <br>
+            <input type="checkbox" name="volei" id="ivolei"><label for="ivolei" >volei</label> <br>
+            <input type="checkbox" name="basquete" id="ibasquete"><label for="ibasquete">basquete</label> <br>
+            <input type="checkbox" name="futvolei" id="ifutvolei"><label for="ifutvolei">futvolei</label> <br>
+            <input type="checkbox" name="corrida" id="icorrida"><label for="icorrida">corrida</label>a <br>
+            <input type="checkbox" name="futsal" id="ifutsal"><label for="ifutsal">futsal</label> <br>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
