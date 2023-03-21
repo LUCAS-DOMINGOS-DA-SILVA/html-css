@@ -13,13 +13,17 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <form action="" method="get" autocomplete="on">
+    <form action="" method="get" autocomplete="off">
 
 
 
         <div>
             <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required autocomplete="additional-name" minlength="5" >
+            <input type="text" name="nome" id="inome" required autocomplete="additional-name" minlength="5" > <br>
+            <label for="iCPF">CPF:</label>
+
+            <input type="text" name="cpf" id="iCPF" required  maxlength="15" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="xxx.xxx.xxx.-xx">
+            
         </div>
 
 
@@ -30,11 +34,7 @@
 
             <input type="radio" name="sexo" id="ifemi" value="F">
             <label for="ifemi">Feminino</label>
-
-
         </fieldset>
-
-
 
         <fieldset>
             <legend>Esportes Favoritos</legend>
@@ -45,6 +45,7 @@
             <input type="checkbox" name="corrida" id="icorrida"><label for="icorrida">corrida</label>a <br>
             <input type="checkbox" name="futsal" id="ifutsal"><label for="ifutsal">futsal</label> <br>
         </fieldset>
+
         <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
