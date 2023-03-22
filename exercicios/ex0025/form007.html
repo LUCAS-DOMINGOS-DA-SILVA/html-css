@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        div{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>formulário</h1>
+
+    <form action="" method="post" autocomplete="on">
+        <div>
+            <label for="iest">Estado</label>
+
+            <select name="est" id="iest">
+                <option value="" selected >- - Escolha - - </option>
+                <optgroup label="Região sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+
+                <option value="CE">Ceára</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="AC">Acre</option>
+                <option value="RN">Rio Grande do Norte</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lisprof">
+              <datalist id="lisprof">
+                <option value="ADM">Administrador</option>
+                <option value="Redreiro">Pedreiro</option>
+                <option value="Elet">Eletricista</option>
+                <option value="Mec">Mecãnico</option>
+                <option value="Adv">Advogado</option>
+                <option value="Med">Médico</option>
+                <option value="Mot">Motorista</option>
+                <option value="Qui">Quimico</option>
+                <option value="JdF">jogador de Futebol</option>
+                <option value="Prof">Professor</option>
+                <option value="Aten">Atendente</option>
+                <option value="Den">Dentista</option>
+                <option value="Farm">Farmaceltico</option>
+                <option value="Pad">Padeiro</option>
+                <option value="Enc">Encanador</option>
+              </datalist>
+            
+        </div>
+
+        <div>
+            <label for="imens">Mensagem:</label><br>
+            <textarea name="men" id="imens" cols="30" rows="10"></textarea>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
