@@ -8,7 +8,7 @@
 html,body{
     width: 100%;
     height: 100%;
-    background-color: rgb(17, 158, 252);
+    background-color:#233eff;
     /* as duas linhas de baixo foi improviso*/
     background-image: url(../imagem/cev-landscape.jpg);
     background-position: left bottom;
